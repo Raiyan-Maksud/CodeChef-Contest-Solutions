@@ -97,3 +97,27 @@ int main()
         cout << n << endl;
     }
 }
+
+//problem 5
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+int main () {
+    ll t;
+    cin >> t;
+    while (t--) {
+        ll a;
+        cin >> a;
+        if (a % 4 == 0){
+            cout << a+3 << "\n";
+        }
+        else if (a % 4 == 1){
+            cout << a << "\n";
+        }
+        else {
+            cout << "3" << "\n";
+        }
+    }
+    return 0;
+}
